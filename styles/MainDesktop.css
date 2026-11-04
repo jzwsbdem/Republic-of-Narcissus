@@ -81,14 +81,27 @@ body {
   overflow: hidden;
 }
 
-.character   {
+.leftImage {
   background-image: url('../images/decoration/expression/vodyanitsa1.gif');
   position: absolute;
   width: 240px;
   height: 240px;
   bottom: -20px;
+  left: 50%;
   border: 2px solid blue;
-  transform: scale(0.4);
+  transform: translateX(-50%) scale(0.4);
+  transform-origin: center center;
+}
+
+.rightImage {
+  background-image: url('../images/decoration/expression/vodyanitsa2.gif');
+  position: absolute;
+  width: 240px;
+  height: 240px;
+  bottom: -20px;
+  left: 50%;
+  border: 2px solid blue;
+  transform: translateX(-50%) scale(0.4);
   transform-origin: center center;
 }
 /* #endregion */
